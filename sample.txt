@@ -5,4 +5,11 @@
 push to tutorial
 てすとー
 git push <url> master
-git push       
+git push    
+git push last master
+url部分は前もってgit remote add 名前 url で設定した名前部分の指定でもいいみたい？
+git push url branchは明示的に指定しなかったらそれぞれorigin(に設定されたurl)とmasterブランチになるみたい
+これらはgit remote -vコマンドで名前:urlは確認できるみたい
+デフォルトのoriginのurlは、未確認だけどgit cloneしてきたところになるのかな？もしgit cloneしてないならどうなるんだろう
+git globalっていうコマンドでの設定もあるみたいだし、そっちでデフォルト値の指定してる？要確認
+
