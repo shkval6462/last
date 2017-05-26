@@ -5,3 +5,4 @@
 push to tutorial
 てすとー
 git push <url> master
+git push       
