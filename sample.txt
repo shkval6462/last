@@ -4,4 +4,4 @@
 リモートリポジトリの内容を取得する
 push to tutorial
 てすとー
-git remote final
+git push <url> master
